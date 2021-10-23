@@ -1,0 +1,34 @@
+/*
+
+
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .item {
+    background-color: #7db15b;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 1em;
+    margin: auto;
+    height: 2000px;
+    width: 710px;
+  }
+  
+.item:nth-child(even) {
+    background-color: #9e9621;
+  }
+  @media screen and (min-width: 600px) {
+    body {
+      flex-direction: row;
+    }
